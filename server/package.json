@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "standard --fix",
+    "dev": "nodemon src/index.js -e js,graphql,gql",
+    "docker": "npm run dev"
+  },
+  "keywords": [],
+  "author": "Gogo 008 Ltd.",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "pg": "^8.2.1",
+    "standard": "^14.3.4"
+  }
+}
